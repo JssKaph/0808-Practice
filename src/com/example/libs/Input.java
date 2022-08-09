@@ -24,6 +24,7 @@ public class Input {
 			this.array[count++] = new Employee(empno, name, base, night, family);
 			System.out.print("Again(y/n) ? : ");
 			y_n = this.sc.next();
+			this.sc.nextLine();
 		}while(y_n.equals("Y") || y_n.equals("y")); 
 		return count;
 	}

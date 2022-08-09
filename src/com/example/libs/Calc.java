@@ -32,7 +32,6 @@ public class Calc {
 			//기본급
 			int base = emp.getBase();
 			int basePay = this.getBase(base); // 기본급
-			emp.setBase(basePay); // 기본수당 세팅
 			
 			//가족수당 계산
 			int family = emp.getFamily(); // 가족수
